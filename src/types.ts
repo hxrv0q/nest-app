@@ -1,6 +1,6 @@
 export enum ReportType {
-  INCOME,
-  EXPENSE,
+  INCOME = 'income',
+  EXPENSE = 'expense',
 }
 
 export type Report = {
